@@ -2,7 +2,6 @@
 
 void itc_rshift_list(vector <int> &mass){
     int count = mass.size();
-    int point;
     vector<int> mass2 = mass;
     if(count != 0){
         for(int i = 1; i < count; i = i + 2){
@@ -15,7 +14,6 @@ void itc_rshift_list(vector <int> &mass){
 
 void itc_lshift(vector <int> &mass){
     int count = mass.size();
-    int point;
     vector<int> mass2 = mass;
     if(count != 0){
         for(int i = count - 2; i >= 0; i = i - 2){
