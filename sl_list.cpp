@@ -1,14 +1,14 @@
 #include "easy_list.h"
 
 int itc_sl_list(const vector <int> &mass){
-    int count = mass.size();
-    int col = 0;
-    if(count != 0){
-        for(int i = 0; i < count - 1; i++){
+    int c = mass.size();
+    int b = 0;
+    if(c != 0){
+        for(int i = 0; i < c - 1; i++){
             if(mass[i + 1] > mass[i]){
-                col++;
+                b = b + 1;
             }
         }
     }
-    return col;
+    return b;
 }
